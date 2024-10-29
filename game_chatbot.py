@@ -220,7 +220,7 @@ def generate_response(message, user_name):
     elif "good" in message or "im good" in message:
         return f"nice, {user_name}?"
     elif "what is your name" in message or "what's your name" in message or "whats your name" in message:
-        return f"I'm a chat_bot and Daniel Seyed Saadat created me."
+        return f"I'm a chat_bot and danielSeSa created me. || Github: danielSeSa"
     elif "joke" in message or "tell me a joke" in message or "tell me joke" in message:
         return joke()
     elif "weather" in message:
